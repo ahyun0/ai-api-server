@@ -24,7 +24,7 @@ def predict(left: int, right: int):
     result = model.predict([left, right])
     return {"result": result}
 
-@app.get("/train")
+@app.post("/train")
 def train():
     model.train()
     return {"result": "OK"}
