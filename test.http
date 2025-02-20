@@ -1,0 +1,5 @@
+POST https://psychic-space-xylophone-v6qprwr5g5pwh56v-8000.app.github.dev/train
+
+###
+
+GET https://psychic-space-xylophone-v6qprwr5g5pwh56v-8000.app.github.dev/predict/left/1/right/1
